@@ -48,7 +48,7 @@ git clone https://github.com/sachnaror/MortgageCalculator.git
 cd MortgageCalculator
 ```
 
-### 2️⃣ Set Up Environment Variables
+### 2️⃣ Set Up Environment Variables ( MONGO_URI below is secure, no worries :-)
 
 Create a `.env` file in the root directory and add:
 
