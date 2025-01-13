@@ -44,7 +44,7 @@ Make sure you have the following installed on your **Mac**:
 ### 1️⃣ Clone the Project
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/sachnaror/MortgageCalculator.git
 cd MortgageCalculator
 ```
 
@@ -163,8 +163,17 @@ We’d love to hear your thoughts! Create an issue or open a pull request.
 
 ---
 
-## 📜 License
+## 📩 Contact
 
-This project is licensed under the MIT License. See `LICENSE` for details.
+
+| Name              | Details                             |
+|-------------------|-------------------------------------|
+| **👨‍💻 Developer**  | Sachin Arora                      |
+| **📧 Email**       | [sachnaror@gmail.com](mailto:sachnaror@gmail.com) |
+| **📍 Location**    | Noida, India                       |
+| **📂 GitHub**      | [github.com/sachinarora](https://github.com/sachinarora) |
+| **🌐 Website**     | [https://about.me/sachin-arora](https://about.me/sachin-arora) |
+| **📱 Phone**       | [+91 9560330483](tel:+919560330483) |
+
 
 Happy Coding! 💻✨
