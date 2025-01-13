@@ -1,0 +1,92 @@
+# Compiled class files
+target/
+
+# Logs
+*.log
+logs/
+
+# Temporary files and IDE-specific files
+*.class
+*.war
+*.ear
+*.jar
+*.swp
+*.iml
+*.idea/
+*.vscode/
+.DS_Store
+
+# Maven-specific files
+.mvn/
+.settings/
+*.m2/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# Spring Boot properties
+*.properties~
+*.yml~
+application-*.properties
+application-*.yml
+
+# Local environment variables
+.env
+
+# Test results
+/test-output/
+
+# Coverage reports
+coverage/
+*.lcov
+*.lcov-report/
+
+# Logs and temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Generated documentation
+/target/site/
+
+# Dependency directory (useful for caching in CI/CD)
+dependency-reduced-pom.xml
+
+# Java-specific files
+hs_err_pid*
+replay_pid*
+
+# Build artifacts
+!pom.xml
+*.exec
+*.out
+*.coverage
+
+# Debug and profiling files
+*.hprof
+
+# IntelliJ and other editor config
+/.idea/
+/*.ipr
+/*.iws
