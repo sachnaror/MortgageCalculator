@@ -36,10 +36,10 @@
             <artifactId>spring-boot-starter-data-mongodb</artifactId>
         </dependency>
 
-        <!-- dotenv-spring-boot for Environment Variable Management -->
+        <!-- dotenv-java for Environment Variable Management -->
         <dependency>
             <groupId>io.github.cdimascio</groupId>
-            <artifactId>dotenv-spring-boot</artifactId>
+            <artifactId>dotenv-java</artifactId>
             <version>3.0.0</version>
         </dependency>
 
@@ -68,6 +68,17 @@
         </dependency>
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+        <repository>
+            <id>apache.snapshots</id>
+            <url>https://repository.apache.org/snapshots</url>
+        </repository>
+    </repositories>
+
     <build>
         <plugins>
             <!-- Spring Boot Maven Plugin -->
@@ -85,6 +96,13 @@
                     <source>${java.version}</source>
                     <target>${java.version}</target>
                 </configuration>
+            </plugin>
+
+            <!-- Maven Surefire Plugin for Tests -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M8</version>
             </plugin>
         </plugins>
     </build>
