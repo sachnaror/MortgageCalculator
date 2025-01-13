@@ -3,26 +3,9 @@
 │   ├── mortgage-calculator/
 │   │   └── pom.xml
 │   │   ├── target/
-│   │   │   ├── test-classes/
-│   │   │   │   ├── com/
-│   │   │   │   │   ├── example/
-│   │   │   │   │   │   ├── mortgagecalculator/
-│   │   │   │   │   │   │   ├── MortgageServiceTest.class
-│   │   │   │   │   │   │   └── MortgageControllerTest.class
+│   │   │   └── test-classes/
 │   │   │   ├── classes/
 │   │   │   │   └── application.properties
-│   │   │   │   ├── com/
-│   │   │   │   │   ├── example/
-│   │   │   │   │   │   ├── mortgagecalculator/
-│   │   │   │   │   │   │   ├── repository/
-│   │   │   │   │   │   │   │   └── MortgageRepository.class
-│   │   │   │   │   │   │   ├── config/
-│   │   │   │   │   │   │   │   └── MongoConfig.class
-│   │   │   │   │   │   │   └── controller/
-│   │   │   │   │   │   │   ├── model/
-│   │   │   │   │   │   │   │   └── MortgageData.class
-│   │   │   │   │   │   │   ├── service/
-│   │   │   │   │   │   │   │   └── MortgageService.class
 │   │   ├── src/
 │   │   │   ├── test/
 │   │   │   │   ├── java/
