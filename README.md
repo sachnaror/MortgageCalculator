@@ -68,34 +68,36 @@ mvn clean install
 
 Your project will look like this:
 ```
-mortgage-calculator/
-├── .env
-├── pom.xml
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── example/
-│   │   │           └── mortgagecalculator/
-│   │   │               ├── controller/
-│   │   │               │   └── MortgageController.java
-│   │   │               ├── model/
-│   │   │               │   └── MortgageData.java
-│   │   │               ├── repository/
-│   │   │               │   └── MortgageRepository.java
-│   │   │               ├── service/
-│   │   │               │   └── MortgageService.java
-│   │   │               ├── config/
-│   │   │               │   └── MongoConfig.java
-│   │   └── resources/
-│   │       ├── application.properties
-│   └── test/
-│       ├── java/
-│       │   └── com/
-│       │       └── example/
-│       │           └── mortgagecalculator/
-│       │               ├── MortgageServiceTest.java
-│       │               └── MortgageControllerTest.java
+├── MortgageCalculator/
+│   ├── README.md
+│   ├── mortgage-calculator/
+│   │   └── pom.xml
+│   │   ├── src/
+│   │   │   ├── test/
+│   │   │   │   ├── java/
+│   │   │   │   │   ├── com/
+│   │   │   │   │   │   ├── example/
+│   │   │   │   │   │   │   ├── mortgagecalculator/
+│   │   │   │   │   │   │   │   ├── MortgageServiceTest.java
+│   │   │   │   │   │   │   │   └── MortgageControllerTest.java
+│   │   │   ├── main/
+│   │   │   │   ├── resources/
+│   │   │   │   │   └── application.properties
+│   │   │   │   ├── java/
+│   │   │   │   │   ├── com/
+│   │   │   │   │   │   ├── example/
+│   │   │   │   │   │   │   ├── mortgagecalculator/
+│   │   │   │   │   │   │   │   ├── repository/
+│   │   │   │   │   │   │   │   │   └── MortgageRepository.java
+│   │   │   │   │   │   │   │   ├── config/
+│   │   │   │   │   │   │   │   │   └── MongoConfig.java
+│   │   │   │   │   │   │   │   ├── controller/
+│   │   │   │   │   │   │   │   │   └── MortgageController.java
+│   │   │   │   │   │   │   │   ├── model/
+│   │   │   │   │   │   │   │   │   └── MortgageData.java
+│   │   │   │   │   │   │   │   ├── service/
+│   │   │   │   │   │   │   │   │   └── MortgageService.java
+
 ```
 
 ### 5️⃣ Run the Application

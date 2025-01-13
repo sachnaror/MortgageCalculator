@@ -2,10 +2,6 @@
 │   ├── README.md
 │   ├── mortgage-calculator/
 │   │   └── pom.xml
-│   │   ├── target/
-│   │   │   └── test-classes/
-│   │   │   ├── classes/
-│   │   │   │   └── application.properties
 │   │   ├── src/
 │   │   │   ├── test/
 │   │   │   │   ├── java/
