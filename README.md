@@ -54,7 +54,7 @@ Create a `.env` file in the root directory and add:
 
 ```env
 PORT=3000
-MONGO_URI=mongodb+srv://atlAdmin:schnaror@mortgagecal.cfa3m.mongodb.net/?retryWrites=true&w=majority&appName=mortgagecalc
+MONGO_URI=mongodb+srv://atlAdmin:schnaror@mortgagecal.cfa3m.mongodb.net/?retryWrites=true&w=majority&appName=mortgagecal
 ```
 
 ### 3️⃣ Install Dependencies
