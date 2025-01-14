@@ -193,6 +193,6 @@ The **Mortgage Calculator Application** is a Spring Boot-based service designed 
 | **👨‍💻 Developer**  | Sachin Arora                      |
 | **📧 Email**       | [sachnaror@gmail.com](mailto:sachnaror@gmail.com) |
 | **📍 Location**    | Noida, India                       |
-| **📂 GitHub**      | [github.com/sachinarora](https://github.com/sachinarora) |
+| **📂 GitHub**      | [github.com/sachnaror](https://github.com/sachnaror) |
 | **🌐 Website**     | [https://about.me/sachin-arora](https://about.me/sachin-arora) |
 | **📱 Phone**       | [+91 9560330483](tel:+919560330483) |
