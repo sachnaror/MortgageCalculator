@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+    depends_on:
+      - mongodb
+      - envoy
+
+  mongodb:
+    image: mongo:4.4
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+
+  envoy:
+    image: envoyproxy/envoy:v1.20.0
+    volumes:
+      - ./docker/envoy.yaml:/etc/envoy/envoy.yaml
+    ports:
+      - "9901:9901" # Admin interface
+      - "8081:8080"
