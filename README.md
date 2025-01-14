@@ -7,7 +7,7 @@ Your **cloud-native**, **microservices-based**, and **feature-rich** solution fo
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![Contributors](https://img.shields.io/github/contributors/sachnaror/MortgageCalculator) ![Issues](https://img.shields.io/github/issues/sachnaror/MortgageCalculator)
 
-![Mortgage Calculator](https://img.shields.io/badge/Mortgage-Calculator-blueviolet?style=for-the-badge&logo=springboot)
+![](https://img.shields.io/badge/Mortgage-Calculator-blueviolet?style=for-the-badge&logo=springboot)
 ![Version](https://img.shields.io/badge/version-1.0.0-orange?style=for-the-badge)
 ![Java](https://img.shields.io/badge/Java-23.0.1-blue?style=for-the-badge&logo=java)
 
