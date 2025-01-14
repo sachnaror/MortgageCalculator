@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mortgage-calculator
+  labels:
+    app: mortgage-calculator
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: mortgage-calculator
+  template:
+    metadata:
+      labels:
+        app: mortgage-calculator
+    spec:
+      containers:
+        - name: mortgage-calculator
+          image: mortgage-calculator:latest
+          ports:
+            - containerPort: 8080
+          envFrom:
+            - configMapRef:
+                name: app-config
