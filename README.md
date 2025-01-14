@@ -4,11 +4,6 @@
 
 Your **cloud-native**, **microservices-based**, and **feature-rich** solution for scalable mortgage calculations.
 
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-🔥            Mortgage Calculator              🔥
-🔥   Scalable, Efficient & Cloud-Native App    🔥
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![Contributors](https://img.shields.io/github/contributors/sachnaror/MortgageCalculator) ![Issues](https://img.shields.io/github/issues/sachnaror/MortgageCalculator)
 
