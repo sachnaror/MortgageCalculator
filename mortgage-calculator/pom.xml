@@ -101,5 +101,9 @@
                 <version>3.9.9</version> <!-- Latest version -->
             </plugin>
         </plugins>
+
+        <modules>
+    <module>quarkus-service</module>
+</modules>
     </build>
 </project>
