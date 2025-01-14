@@ -20,6 +20,7 @@ The **Mortgage Calculator Application** is a Spring Boot-based service designed 
 
 ```
 ├── MortgageCalculator/
+│   ├── Wiki.md
 │   ├── README.md
 │   ├── .env
 │   ├── mortgage-calculator/
@@ -36,6 +37,39 @@ The **Mortgage Calculator Application** is a Spring Boot-based service designed 
 │   │   │   │   │   │   │   │   ├── quarkusservice/
 │   │   │   │   │   │   │   │   │   ├── resources/
 │   │   │   │   │   │   │   │   │   │   └── application.properties
+│   │   ├── target/
+│   │   │   ├── test-classes/
+│   │   │   │   ├── com/
+│   │   │   │   │   ├── example/
+│   │   │   │   │   │   ├── mortgagecalculator/
+│   │   │   │   │   │   │   ├── MortgageServiceTest.class
+│   │   │   │   │   │   │   └── MortgageControllerTest.class
+│   │   │   ├── generated-sources/
+│   │   │   │   └── annotations/
+│   │   │   ├── classes/
+│   │   │   │   ├── com/
+│   │   │   │   │   ├── example/
+│   │   │   │   │   │   ├── mortgagecalculator/
+│   │   │   │   │   │   │   ├── repository/
+│   │   │   │   │   │   │   │   └── MortgageRepository.class
+│   │   │   │   │   │   │   ├── config/
+│   │   │   │   │   │   │   │   └── MongoConfig.class
+│   │   │   │   │   │   │   ├── controller/
+│   │   │   │   │   │   │   │   └── MortgageController.class
+│   │   │   │   │   │   │   ├── model/
+│   │   │   │   │   │   │   │   └── MortgageData.class
+│   │   │   │   │   │   │   ├── service/
+│   │   │   │   │   │   │   │   └── MortgageService.class
+│   │   │   ├── maven-status/
+│   │   │   │   ├── maven-compiler-plugin/
+│   │   │   │   │   ├── testCompile/
+│   │   │   │   │   │   ├── default-testCompile/
+│   │   │   │   │   │   │   └── inputFiles.lst
+│   │   │   │   │   ├── compile/
+│   │   │   │   │   │   ├── default-compile/
+│   │   │   │   │   │   │   └── inputFiles.lst
+│   │   │   ├── generated-test-sources/
+│   │   │   │   └── test-annotations/
 │   │   ├── kubernetes/
 │   │   │   ├── deployment.yaml
 │   │   │   ├── secrets.yaml
@@ -46,6 +80,13 @@ The **Mortgage Calculator Application** is a Spring Boot-based service designed 
 │   │   │   ├── docker/
 │   │   │   │   ├── envoy.yaml
 │   │   │   │   └── Dockerfile
+│   │   │   ├── test/
+│   │   │   │   ├── java/
+│   │   │   │   │   ├── com/
+│   │   │   │   │   │   ├── example/
+│   │   │   │   │   │   │   ├── mortgagecalculator/
+│   │   │   │   │   │   │   │   ├── MortgageServiceTest.java
+│   │   │   │   │   │   │   │   └── MortgageControllerTest.java
 │   │   │   ├── main/
 │   │   │   │   ├── resources/
 │   │   │   │   │   └── application.properties
@@ -70,6 +111,7 @@ The **Mortgage Calculator Application** is a Spring Boot-based service designed 
 │   │   │   │   │   │   │   │   │   └── MortgageData.java
 │   │   │   │   │   │   │   │   ├── service/
 │   │   │   │   │   │   │   │   │   └── MortgageService.java
+
 ```
 
 ---
