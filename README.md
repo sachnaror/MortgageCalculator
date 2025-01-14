@@ -1,5 +1,5 @@
 
-# Mortgage Calculator Application
+# Mortgage Calculator Application (Java Spring Boot)
 
 The **Mortgage Calculator Application** is a Spring Boot-based service designed to calculate and provide mortgage information, including loan terms, interest rates, and monthly payments. It integrates cutting-edge tools like Kubernetes, Quarkus, Helm, and Docker for modern application deployment and scalability.
 
