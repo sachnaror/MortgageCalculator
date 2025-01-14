@@ -1,5 +1,32 @@
 
-# Mortgage Calculator Application (Java Spring Boot)
+
+# 🚀 Mortgage Calculator (Java Spring Boot) 🔥
+
+Your **cloud-native**, **microservices-based**, and **feature-rich** solution for scalable mortgage calculations.
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+🔥            Mortgage Calculator              🔥
+🔥   Scalable, Efficient & Cloud-Native App    🔥
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![Contributors](https://img.shields.io/github/contributors/sachnaror/MortgageCalculator) ![Issues](https://img.shields.io/github/issues/sachnaror/MortgageCalculator)
+
+![Mortgage Calculator](https://img.shields.io/badge/Mortgage-Calculator-blueviolet?style=for-the-badge&logo=springboot)
+![Version](https://img.shields.io/badge/version-1.0.0-orange?style=for-the-badge)
+![Java](https://img.shields.io/badge/Java-23.0.1-blue?style=for-the-badge&logo=java)
+
+# 🚀 Mortgage Calculator 🔥
+
+![Flames](https://media.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.gif)
+
+> Your **cloud-native**, **microservices-based**, and **feature-rich** solution for scalable mortgage calculations.
+
+[![Version](https://img.shields.io/badge/version-1.0.0-orange?style=for-the-badge)](https://github.com/sachnaror/MortgageCalculator)
+[![Java](https://img.shields.io/badge/Java-23.0.1-blue?style=for-the-badge&logo=java)](https://openjdk.org)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/sachnaror/MortgageCalculator)
+[![Contributors](https://img.shields.io/github/contributors/sachnaror/MortgageCalculator)](https://github.com/sachnaror/MortgageCalculator)
+
 
 The **Mortgage Calculator Application** is a Spring Boot-based service designed to calculate and provide mortgage information, including loan terms, interest rates, and monthly payments. It integrates cutting-edge tools like Kubernetes, Quarkus, Helm, and Docker for modern application deployment and scalability.
 
